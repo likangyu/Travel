@@ -1,0 +1,60 @@
+@media screen and (max-width:900px) {
+	.nav_top{
+		display: none;
+	}
+ 	.logo {
+ 		position: fixed;
+ 		left:0;
+ 		z-index: 1;
+ 	}
+ 	.ul_show{
+ 		top:50px;
+ 	}
+ 	.logo a img{
+ 		line-height: 60px;
+		display: block;
+ 	}
+ 	#picture_contact{
+ 		height:450px;
+ 	}
+ 	.section_top_main{
+		width:90%;
+ 	}
+ 	.section_top_main_img{
+    width:calc(( 100% - 200px ) / 3 );
+    margin-top:30px;
+    min-width: 250px;
+	}
+	#content1 {
+	    width:90%;
+	}
+	.section_bottom_main_img{
+	    width:30%;
+	    min-width: 200px;
+	}
+	.section_show_about {
+	    width:35%;
+	    min-width:250px;
+	}
+	.section_kownledge_left{
+	    width:100%;
+	    min-width: 250px; 
+	}
+	.section_kownledge_right{
+	    display: none;
+	}
+
+	.message_container {
+	    width:100%;
+	    min-width:300px;
+	}
+	.feedback_container{
+		width: 100%;
+		min-width: 300px;
+	}
+	.section_contact_picture {
+	    width:50%;
+	    min-width: 350px;
+	    text-align:center;
+	}
+}
