@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Login</title>
+	<link rel="stylesheet" href="../css/style.css"/>
+	<link rel="stylesheet" type="text/css"  media="screen and (max-width:900px)" href="../css/media.css">
+	<script type="text/javascript" src="../js/index.js"></script>
+	
+</head>
+<body class="bg">
+	<!-- head nav 部分 -->
+	<div id="header">
+		<!-- header_nav 导航条HTML代码 -->
+		<div class="header_nav">
+				<div class="header_nav_top">
+				<div class="logo">
+					<a href="javascript:;"><img src="../images/logo.jpg" alt="logo"/></a>
+				</div>
+				<ul class="nav_top">
+				  <li><a href="../index.html">网站首页</a></li> 
+					<li id="type" class="type">
+						<a href="../about/about.html" id="about">旅游类型 </a>
+						<ul id="type_ul">
+							<li><a href="../about/self.html">自助游</a></li>
+							<li><a href="../about/group.html">参团游</a></li>
+							<li><a href="../about/abroad.html">出国游</a></li>             
+							<li><a href="../about/domestic.html">国内游</a></li>
+							<li><a href="../about/province.html">省内游</a></li>
+						</ul>
+					</li>
+					   
+					<li id="knowledge" class="knowledge-one">
+						<a href="../knowledge/knowledge.html">旅游知识</a>
+						<ul id="knowledge_ul">
+							<li><a href="../knowledge/Information.html">旅游资讯</a></li>
+							<li><a href="../knowledge/Notice.html">小常识</a></li>
+						</ul>
+					</li>
+						 
+				   <li><a href="../login/login.html">旅游路线</a></li>
+					
+					<li id="contact" class="contact">
+						<a href="../contact/contact.html">联系我们</a>
+						<ul id="contact_ul">
+							<li><a href="../contact/message.html">在线留言</a></li>
+							<li><a href="../contact/feedback.html">在线反馈</a></li>
+							<li><a href="../contact/contact.html">联系我们</a></li>
+						 </ul>
+					</li>
+					<div class="login_btn">
+						<div class="login_left_btn">
+							<a href="../login/register.html">注册</a>
+						</div>  
+						<div class="login_right_btn">
+							<a href="../login/enter.html">登陆</a>
+						</div>  
+					</div>
+				</ul>
+				</div>
+			</div>
+				<div class="show">
+						<ul class="ul_show">
+
+								<li><a href="#">网站首页</a></li>
+								<li><a href="#">旅游类型</a></li>
+								<li><a href="#">旅游知识</a></li>
+								<li><a href="#">旅游线路</a></li>
+								<li><a href="#">联系我们</a></li>
+						 </ul> 
+				</div>
+		</div>
+	</div>
+	<!--head 部分-->
+	<div id="head">
+		<h1>BELONG YOUR TRIP</h1>
+		<p>Travel makes us better</p>
+	</div>
+
+	<!-- main 部分 -->
+	<div id="main">
+			<form action="#" method="post" class="main_container">
+				<h2 class="main_top">A simple and comfortable way of traveling</h2>
+				<div class="main_radio">
+					<ul class="radio_three">
+						<li><input type="radio" name="view">
+							<label for="flight">Flight</label>
+						</li>
+						<li>
+						<input type="radio" name="view" checked="checked">
+							<label for="train">Train</label>
+						</li>
+						<li>
+						<input type="radio" name="view">
+							<label for="bus">Bus</label>
+						</li>
+					</ul>
+				</div>
+
+				
+				<div id="text_main">
+					<div class="text_main_top">
+						<input type="text"  title="请输入您的名字" placeholder="Your Name" name="name" />
+						</div> <br>
+					<div class="text_main_bottom">
+						<input type="text"  title="请输入您的电话" placeholder="Phone Number" name="phone" />
+					</div>
+				</div>
+				
+				<div id="main_select">
+					<div id="main_select_top">
+							<div class="select_left">
+								<select>
+									<option value="0">Destination City</option>
+									<option value="1">city1</option>
+									<option value="2">city2</option>
+									<option value="3">city3</option>
+									<option value="4">city4</option>
+				  				</select>
+							</div>
+
+							<div class="select_right">
+								 <select>
+									<option value="0">select class</option>
+									<option value="1">Any</option>
+									<option value="3">Economy Class</option>
+									<option value="2"> Business Class</option>
+									<option value="1">First Class</option>
+				  				</select>
+							</div>
+					</div>
+					<div id="main_select_bottom">
+						<div class="select_bottom_left">
+							 <select>
+								<option value="0">Adults</option>
+								<option value="1">0</option>
+								<option value="2">1</option>
+								<option value="3"> 2</option>
+								<option value="4">3 or 3+</option>
+							 </select>
+						</div>	
+					<div class="select_bottom_right">
+							  <select>
+								<option value="0">Children</option>
+								<option value="1">0</option>
+								<option value="2">1</option>
+								<option value="3"> 2</option>
+								<option value="4">3 or 3+</option>
+							 </select>
+						</div>
+				</div>
+				<div class="submit_text">
+					<input type="submit" name="submit" value="submit">
+				</div>
+			
+
+			</form>
+	</div>
+
+	<!-- footer 部分 -->
+	<div id="footer_login">
+		<p>© 2017 Belong Your Trip. All rights reserved | Design by Kang</p>
+	</div>
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+</body>
+</html>

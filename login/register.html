@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script type="text/javascript" src="../js/checkCode.js"></script>
+</head>
+<body>
+		<div class="container-register">
+			<div class="register-nav">
+				<div class="register-nav-contain">
+					<div class="nav-left">
+						<ul class="nav-left-ul">
+							<li><a href="#"><img src="../images/logo.jpg" alt=""></a></li>
+							<li class="nav-before">会员注册</li>
+						</ul>
+					</div>
+
+					<div class="nav-right">
+						<ul class="nav-right-ul">
+							<li><a href="../index.html">返回首页</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="register-main">
+				<div class="register-main-contain">
+					<form action="#" mothod="POST" class="register-main-all">
+						<div class="form-group">
+								<span class="span-group">
+									<i class="span-mobile"></i>
+								</span>
+								<input class="form-control" type="text" name="phone" placeholder="手机"/>
+                            </div>
+                            <div class="form-group">
+                            	<span class="span-group">
+									<i class="span-lock"></i>
+                            	</span>
+                                <input class="form-control" type="text" name="password" placeholder="密码"/>
+                            </div>
+                            <div class="form-group">
+                            	<span class="span-group">
+									<i class="span-lock"></i>
+                            	</span>
+                                <input class="form-control" type="text" name="password" placeholder="重复密码"/>
+                            </div>
+
+                            <div class="form-group form-group-code">
+                            	<span class="span-group">
+									<i class="span-shield"></i>
+                            	</span>
+
+                                <input class="form-control form-control-code" type="text" placeholder="验证码" id="input" />
+                                <input type = "button" id="code" onclick="createCode()" />  
+                                <input class="form-control-button" type="button" value="验证" onclick = "validate()"/>
+                            </div>
+
+                            <div class="form-group form-group-line">
+								<hr />
+								<span class="form-group-span">更多资料</span>
+                            </div>
+
+                            <div class="form-group form-group-name">
+                            	<span>姓名</span>
+                            	<input type="text" class="form-control-name" name="name" placeholder="姓名" title="请输入您的姓名" />
+                            </div>
+
+                           <div class="form-group form-group-eamil">
+	                        	<span>邮箱</span>
+	                        	<input type="text" class="form-control-eamil" name="eamil" placeholder="邮箱" title="请输入您的邮箱" />
+                            </div>
+
+                            <div class="form-group form-group-login">
+								<input type="submit" value="立即注册" class="submit-login" />
+                            </div>
+
+                            <div class="login-number">
+								<a href="../login/enter.html">已有账号？</a>
+                            </div>
+          
+						
+					</form>
+				</div>
+			</div>
+
+			<div class="register-footer">
+				<p>我的网站 版权所有  Design by Kang</p>
+				<p>© 2017 Belong Your Trip. All rights reserved | Design by Kang</p>
+				<p>联系方式 0759-1234-5678</p>
+			</div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,339 @@
+/*--reset--*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica,sans-serif; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+h1,h2,h3,h4,h5,h6,input,p,a,select,button,textarea,label{font-weight:normal;margin:0;font-family: 'Asap', sans-serif;font-size:100%;}
+
+/*style.css 设置*/
+.bg{
+	background: url(../images/1.jpeg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* head_nav 导航条设置部分 */
+#header{
+    width:100%; 
+}
+
+#header .header_nav{
+    width:100%;
+    position: fixed;
+    background:white;
+}
+.header_nav_top{
+    margin:0 auto;
+    width:80%;
+}
+.header_nav .nav_top{
+    padding-left:80px;
+}
+.header_nav .nav_top li {
+    min-width:65px;
+    font-size:1rem;
+    display: inline-block;
+    padding:10px 0px;
+    width:calc( ( 100% - 150px) / 6 );
+}
+
+#type {
+    position: relative;
+}
+/*type a 下的 display:block -> 为了兼容IE8 */
+#type #about{
+    display: block;
+    line-height: 40px;
+}
+#type_ul {
+    position: absolute;
+    top:60px;
+    left:-60px;
+    background:white;
+    display: none;
+}
+
+#type_ul li {
+    display:block;
+    margin:0px;
+    padding:0px;
+   
+}
+#type_ul li a {
+    display: block;
+    min-width:120px;
+    line-height: 40px;
+    padding-left:10px;
+}
+#type_ul li a:hover{
+    background:rgb(238, 235, 235);
+    color:rgb(85, 85, 255);
+}
+
+/*knowledge 导航条style设置*/
+#knowledge {
+    position: relative;
+}
+#knowledge a{
+    display: block;
+}
+
+#knowledge_ul{
+    position: absolute;
+    top:46px;
+    left: -40px;
+    background:white;
+    display:none;
+    
+}
+#knowledge_ul li{
+    display: block;
+    margin:0px;
+}
+#knowledge_ul li a{
+    display: block;
+    width:140px;
+    text-align:center;
+    line-height: 35px;
+}
+#knowledge_ul li a:hover{
+    background:#ccc;
+}
+
+
+/*contact 导航条style设置*/
+#contact {
+    position: relative;
+}
+#contact a{
+    display: block;
+}
+
+#contact_ul{
+    position: absolute;
+    top:46px;
+    left: -40px;
+    background:white;
+    display:none;    
+}
+#contact_ul li{
+    display: block;
+    margin:0px;
+}
+#contact_ul li a{
+    display: block;
+    width:140px;
+    text-align:center;
+    line-height: 35px;
+}
+#contact_ul li a:hover{
+    background:#ccc;
+}
+.login_btn {
+    display: inline-block;
+}
+.login_left_btn{
+    display: inline-block;
+    
+}
+.login_left_btn a {
+    display: block;
+    font-size:1rem;
+    color:white;
+    padding:8px 14px;
+    background:#46BE8A;
+}
+.login_left_btn a:hover{
+    background:rgb(89, 206, 155);
+}
+
+.login_right_btn{
+    display: inline-block;
+    padding:10px 0px 0px 0px;
+   
+}
+.login_right_btn a{
+    display:block;
+    font-size:1rem;
+    padding:7px 13px;
+    border:1px solid rgb(84, 84, 247);
+}
+.login_right_btn a:hover {
+    background:rgb(93, 93, 252);
+    color:white;
+}
+ 
+
+
+
+
+
+	/*head style设置部分*/
+#head{
+	width:100%;
+	height:200px;
+	text-align: center;
+	color:white;
+}
+#head h1{
+	font-size: 3.3em;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top:1.4em;
+    letter-spacing: 3px;
+}
+#head p {
+	color:#d4d4d4;
+	font-size: 1.2em;
+}
+
+	/*main style设置部分*/
+#main {
+	width:485px;
+	height: 495px;
+	margin: 0 auto;
+	background:rgba(0,0,0,0.55);
+}
+.main_container{
+	color:#d4d4d4;
+	
+}
+.main_top {
+	height: 15px;
+	font-size:16px;
+	text-align: center;
+	letter-spacing: 1px;
+	padding-top:55px;
+}
+.main_radio{
+	height:85px;
+}
+.main_radio li{
+		display: inline-block;
+		/*padding-top: 35px;
+		padding-left: 80px;*/
+		padding:35px 0px 0px 65px;
+
+}
+.main_radio li label{
+	color:white;
+	font-size: 1.2em;
+}
+.main_radio input[type=radio]{
+	width:25px;
+	height: 17px;
+	cursor:pointer;
+}
+
+#text_main{
+	height:100px;
+	text-align: center;
+	padding-top:3px;
+}
+.text_main_top input[type=text]{
+	width:400px;
+	height:39px;
+	border-radius: 30px;
+	padding-left:1.3em;
+	outline: none;
+	border: none;
+	background-color: #fff;
+	color: #000;
+	cursor:pointer;
+}
+.text_main_bottom input[type=text]{
+	width:400px;
+	height:39px;
+	border-radius: 30px;
+	padding-left:1.3em;
+	margin-top:7px;
+	outline: none;
+	border: none;
+	background-color: #fff;
+	color: #000;
+	background: url(images/phone.png) no-repeat 97.5% 50% white !important;
+    cursor: pointer;
+}
+
+	#main_select {
+		height:125px;
+		margin-top:12px;
+	}
+	
+	#main_select_top select{
+		border: none;
+	    outline: none;
+		border-radius: 30px;
+	    background: url(images/arrow1.png) no-repeat 90% center #ffffff;
+	    width:40%;
+	    padding: 0.7em 1.4em;
+	    color: #777!important;
+	    -webkit-appearance: none;
+	    float:left;
+	    margin-top:15px;
+	    margin-left:31.5px;
+	    
+	}
+	#main_select_top select option{
+		font-size: 1.1em;
+	}
+
+	
+	#main_select_bottom select{
+		border: none;
+	    outline: none;
+		border-radius: 30px;
+	    background: url(images/arrow1.png) no-repeat 90% center #ffffff;
+	    width:40%;
+	    padding: 0.7em 1.4em;
+	    color: #777!important;
+	    -webkit-appearance: none;
+	    float:left;
+	    margin-top:22px;
+	    margin-left:31.5px;
+	}
+	#main_select_bottom select option{
+		font-size: 1.1em;
+	}
+	#submit_text{
+		text-align: center;
+	}
+
+	.submit_text input[type=submit]{
+		width:420px;
+		height: 42px;
+		padding:0.8em;
+		font-size:1.1em;
+		color: #fff;
+	    border: none;
+	    outline: none;
+	    border-radius: 30px;
+	    background: #008e90;
+	    margin:30px 32px;
+	    text-transform: capitalize;
+	    cursor: pointer;
+	}
+	
+	.submit_text input[type="submit"]:hover{
+		background: #fff;
+		color: #000;
+	}
+
+	/*footer style设置部分*/
+#footer{
+	width:100%;
+	height:50px;
+	text-align:center;
+	position: relative;
+	top:50px;
+
+}
+#footer p {
+	color: #fff;
+	margin-top:100px;
+	font-size:1.1em;
+}
